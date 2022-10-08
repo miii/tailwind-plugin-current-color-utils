@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-plugin-current-color-utils",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jacob Andersson",
+    "url": "https://github.com/miii"
+  },
+  "main": "plugin.cjs",
+  "types": "plugin.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "cd playground && vite dev"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.6"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3"
+  }
+}
